@@ -2,4 +2,4 @@
 
 
 ## Демо работы
-![Демонстрация анимации](https://github.com/username/repo/raw/main/images/demo.gif)
+![Демонстрация анимации](https://github.com/artimf/jetlend_public/blob/main/jetlend.gif)
