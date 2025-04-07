@@ -66,3 +66,20 @@ InvestAI помогает инвесторам быстро отбирать п�
   
 ## Демо работы
 ![Демонстрация анимации](https://github.com/artimf/jetlend_public/blob/main/jetlend.gif)
+
+
+## Установка через docker-compose.yml
+version: '3'
+services:
+  app:
+    build: .
+    image: jet-docker-app
+    environment:
+      - AI_API_KEY=****easd1231234b571*****
+    ports:
+      - "8501:8501"
+    volumes:
+
+docker-compose up -d --build
+
+http://localhost:8501/
